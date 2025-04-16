@@ -68,7 +68,7 @@ void SearchMazeMovesTest1() {
     fail("Method does not exist");
   }
   catch (Exception e) {
-    fail("Something weird happened");
+    fail("Something weird happened " + e);
   }
 }
 
